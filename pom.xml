@@ -22,12 +22,11 @@
         <maven.release.plugin-maven.invoker.version>2.2</maven.release.plugin-maven.invoker.version>
         <sonar.host.url>http://localhost:9001/</sonar.host.url>
         <sonar.profile>Sonar way</sonar.profile>
-        <sonar.branch>${env.BRANCH_NAME}</sonar.branch>
         <spring-cloud.version>Dalston.SR4</spring-cloud.version>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<sonar.jacoco.itReportPath>${project.basedir}/../target/jacoco-it.exec</sonar.jacoco.itReportPath>
-		<sonar.groovy.binaries>target/classes</sonar.groovy.binaries>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	<sonar.jacoco.itReportPath>${project.basedir}/../target/jacoco-it.exec</sonar.jacoco.itReportPath>
+	<sonar.groovy.binaries>target/classes</sonar.groovy.binaries>
 </properties>
 
 <dependencies>
